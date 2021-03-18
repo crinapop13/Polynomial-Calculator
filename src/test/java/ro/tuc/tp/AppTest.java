@@ -103,10 +103,10 @@ public class AppTest
     {
         Polinom p1 = new Polinom();
 
-        //2x^4+6x^2+3x^1
-        p1.adauga(new Monom(2,4));
+        //5x^4+6x^2+2x^1
+        p1.adauga(new Monom(5,4));
         p1.adauga(new Monom(6,2));
-        p1.adauga(new Monom(3,1));
+        p1.adauga(new Monom(2,1));
 
         //0.4x^5+2x^2+1.5x^1
         Polinom integ = new Polinom();

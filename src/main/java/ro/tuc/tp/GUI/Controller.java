@@ -31,7 +31,6 @@ public class Controller {
             String in1 = view.getUserInput1();
             String in2 = view.getUserInput2();
             view.setResult(logic.adunare(convertToPolinom(in1),convertToPolinom(in2)));
-            //logic.adunare(convertToPolinom(in1),convertToPolinom(in2)).afisarePolinom();
         }
     }
 
@@ -41,7 +40,7 @@ public class Controller {
             String in1 = view.getUserInput1();
             String in2 = view.getUserInput2();
             view.setResult(logic.scadere(convertToPolinom(in1),convertToPolinom(in2)));
-            //logic.scadere(convertToPolinom(in1),convertToPolinom(in2)).afisarePolinom();
+            logic.scadere(convertToPolinom(in1),convertToPolinom(in2)).toString();
         }
     }
 
@@ -51,7 +50,6 @@ public class Controller {
             String in1 = view.getUserInput1();
             String in2 = view.getUserInput2();
             view.setResult(logic.produs(convertToPolinom(in1),convertToPolinom(in2)));
-            //logic.produs(convertToPolinom(in1),convertToPolinom(in2)).afisarePolinom();
         }
     }
 
@@ -60,8 +58,7 @@ public class Controller {
         public void actionPerformed(ActionEvent e) {
             String in1 = view.getUserInput1();
             String in2 = view.getUserInput2();
-            view.setResult(logic.impartire(convertToPolinom(in1),convertToPolinom(in2)));
-            //logic.impartire(convertToPolinom(in1),convertToPolinom(in2)).afisarePolinom();
+            //view.setResult(logic.impartire(convertToPolinom(in1),convertToPolinom(in2)));
         }
     }
 
@@ -70,7 +67,6 @@ public class Controller {
         public void actionPerformed(ActionEvent e) {
             String in1 = view.getUserInput1();
             view.setResult(logic.derivare(convertToPolinom(in1)));
-            //logic.derivare(convertToPolinom(in1)).afisarePolinom();
         }
     }
 
@@ -79,7 +75,6 @@ public class Controller {
         public void actionPerformed(ActionEvent e) {
             String in1 = view.getUserInput1();
             view.setResult(logic.integrare(convertToPolinom(in1)));
-            //logic.integrare(convertToPolinom(in1)).afisarePolinom();
         }
     }
 
