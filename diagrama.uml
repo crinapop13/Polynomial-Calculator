@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ro.tuc.tp.App</OriginalElement>
+  <nodes>
+    <node x="0.0" y="214.0">ro.tuc.tp.Model.Polinom</node>
+    <node x="130.86223958333335" y="620.0">ro.tuc.tp.GUI.Controller</node>
+    <node x="85.86223958333329" y="724.0">ro.tuc.tp.GUI.View</node>
+    <node x="142.8622395833333" y="1048.0">ro.tuc.tp.App</node>
+    <node x="123.36223958333333" y="406.0">ro.tuc.tp.Model.Operatii</node>
+    <node x="203.70677083333334" y="0.0">ro.tuc.tp.Model.Monom</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ro.tuc.tp.App" target="ro.tuc.tp.GUI.View">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="137.0" />
+    </edge>
+    <edge source="ro.tuc.tp.Model.Operatii" target="ro.tuc.tp.Model.Polinom">
+      <point x="-92.625" y="-82.0" />
+      <point x="154.23723958333335" y="386.0" />
+      <point x="158.2" y="386.0" />
+      <point x="45.19999999999999" y="71.0" />
+    </edge>
+    <edge source="ro.tuc.tp.GUI.Controller" target="ro.tuc.tp.Model.Monom">
+      <point x="46.39999999999998" y="-27.0" />
+      <point x="293.2622395833333" y="590.0" />
+      <point x="380.86223958333335" y="590.0" />
+      <point x="380.86223958333335" y="194.0" />
+      <point x="350.70677083333334" y="194.0" />
+      <point x="49.0" y="82.0" />
+    </edge>
+    <edge source="ro.tuc.tp.Model.Operatii" target="ro.tuc.tp.Model.Monom">
+      <point x="30.875" y="-82.0" />
+      <point x="277.73723958333335" y="386.0" />
+      <point x="286.5825520833333" y="386.0" />
+      <point x="286.5825520833333" y="194.0" />
+      <point x="285.3734375" y="194.0" />
+      <point x="-16.333333333333314" y="82.0" />
+    </edge>
+    <edge source="ro.tuc.tp.GUI.Controller" target="ro.tuc.tp.Model.Polinom">
+      <point x="-92.80000000000004" y="-27.0" />
+      <point x="154.06223958333328" y="600.0" />
+      <point x="88.34973958333333" y="600.0" />
+      <point x="88.34973958333333" y="376.0" />
+      <point x="67.80000000000001" y="376.0" />
+      <point x="-45.19999999999999" y="71.0" />
+    </edge>
+    <edge source="ro.tuc.tp.GUI.View" target="ro.tuc.tp.Model.Polinom">
+      <point x="-105.6" y="-137.0" />
+      <point x="112.2622395833333" y="699.0" />
+      <point x="74.84505208333337" y="699.0" />
+      <point x="74.84505208333337" y="386.0" />
+      <point x="22.599999999999994" y="386.0" />
+      <point x="-90.4" y="71.0" />
+    </edge>
+    <edge source="ro.tuc.tp.GUI.Controller" target="ro.tuc.tp.Model.Operatii">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="82.0" />
+    </edge>
+    <edge source="ro.tuc.tp.GUI.View" target="ro.tuc.tp.GUI.Controller">
+      <point x="-52.79999999999998" y="-137.0" />
+      <point x="165.0622395833333" y="699.0" />
+      <point x="159.86223958333335" y="699.0" />
+      <point x="-87.0" y="27.0" />
+    </edge>
+    <edge source="ro.tuc.tp.Model.Polinom" target="ro.tuc.tp.Model.Monom">
+      <point x="-56.5" y="-71.0" />
+      <point x="56.5" y="184.0" />
+      <point x="220.04010416666668" y="184.0" />
+      <point x="-81.66666666666666" y="82.0" />
+    </edge>
+    <edge source="ro.tuc.tp.GUI.Controller" target="ro.tuc.tp.GUI.View">
+      <point x="29.0" y="27.0" />
+      <point x="275.86223958333335" y="699.0" />
+      <point x="270.6622395833333" y="699.0" />
+      <point x="52.80000000000004" y="-137.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5855614973262032" x="208.5" y="541.0" />
+  <SelectedNodes>
+    <node>ro.tuc.tp.Model.Polinom</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
