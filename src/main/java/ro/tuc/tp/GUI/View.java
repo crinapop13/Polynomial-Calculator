@@ -9,12 +9,12 @@ import java.awt.event.ActionListener;
 public class View extends JFrame {
     private JPanel content = new JPanel(new GridBagLayout());
     GridBagConstraints c = new GridBagConstraints();
-    private JButton add = new JButton("Add");
-    private JButton sub = new JButton("Substract");
-    private JButton mult = new JButton("Multiply");
-    private JButton div = new JButton("Divide");
-    private JButton deriv = new JButton("Derivate");
-    private JButton integ = new JButton("Integrate");
+    private JButton add = new JButton("Adunare");
+    private JButton sub = new JButton("Scadere");
+    private JButton mult = new JButton("Inmultire");
+    private JButton div = new JButton("Impartire");
+    private JButton deriv = new JButton("Derivare");
+    private JButton integ = new JButton("Integrare");
     private JButton clear = new JButton("Clear");
     private JTextField p1 = new JTextField(20);
     private JTextField p2 = new JTextField(20);
